@@ -13,6 +13,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
  - Middleware 
  - Routing and MVC
  - Logging and Diagnostics
+
 For day 1 labs and demo script [click here link coming soon]
 
 ### Day 2 Advanced Introduction to ASP.NET Core 1.0 
@@ -27,6 +28,7 @@ For day 1 labs and demo script [click here link coming soon]
 - APIs and MVC Core 
 - Entity Framework Core
 - Publishing & Deployment 
+
 For day 2 labs and demo script [click here link coming soon]
 
 ### Day 3 .NET Core  on Linux /  Cross Platform 
@@ -39,6 +41,7 @@ For day 2 labs and demo script [click here link coming soon]
 - Introduction to ASP.NET MVC 
 - Deploying to Linux Server 
 - Getting started with containers with Docker 
+
 For day 3 labs and demo script [click here link coming soon]
 
 
