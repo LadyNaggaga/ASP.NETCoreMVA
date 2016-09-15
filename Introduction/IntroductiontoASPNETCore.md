@@ -9,7 +9,7 @@
 
     Go to File New Project -> C# -> ASP.NET Core Web Application (.NET Core)
 
-    ![image](Images/FileNew.PNG)
+    ![image](Images/Filenew.PNG)
 
 
 ## Running the application under IIS or on Kestrel 
