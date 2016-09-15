@@ -15,7 +15,7 @@
     Add screenshot
 
 ## Running the application under IIS or on Kestrel 
-- Change the Debug drop dowen inthe toolbar to the application name
+- Change the Debug drop down in the toolbar to the application name
 
 ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/run-with-kestrel.png)
 

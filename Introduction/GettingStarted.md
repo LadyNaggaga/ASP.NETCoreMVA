@@ -63,7 +63,7 @@
 ```
 *Option 2: Hello World Console to Hello World Web*
 
-- Add the Kestrel HTTP Seerver package as  dependency in the project.json file
+- Add the Kestrel HTTP Server package as  dependency in the project.json file
 ```sh
     {
         "version": "1.0.0-*",
