@@ -48,7 +48,7 @@
 ```
 - Edit Program.cs.
 
-*Consider updating program.cs to accept input* 
+*Option 1: Consider updating program.cs to accept input* 
 ```sh
     public static void Main(string[] args)
         {
@@ -61,6 +61,82 @@
             
         }
 ```
+*Option 2: Hello World Console to Hello World Web*
+
+- Add the Kestrel HTTP Seerver package as  dependency in the project.json file
+```sh
+    {
+        "version": "1.0.0-*",
+        "buildOptions": {
+        "debugType": "portable",
+        "emitEntryPoint": true
+  },
+        "dependencies": {},
+        "frameworks": {
+        "netcoreapp1.0": {
+        "dependencies": {
+            "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.0.0"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": "1.0.0"
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
+```
+- Restore the packages 
+```sh
+    dotnet restore
+```
+- Add a Startup.cs file that defines the request handling logic:
+```sh
+using System;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+
+namespace aspnetcoreapp
+{
+    public class Startup
+    {
+        public void Configure(IApplicationBuilder app)
+        {
+            app.Run(context =>
+            {
+                return context.Response.WriteAsync("Hello from ASP.NET Core!");
+            });
+        }
+    }
+}
+```
+- Update Program.cs to setup and start the web host 
+```sh
+using System;
+using Microsoft.AspNetCore.Hosting;
+
+namespace aspnetcoreapp
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseStartup<Startup>()
+                .Build();
+
+            host.Run();
+        }
+    }
+}
+```
+- Run the app 
+```sh
+    dotnet run
+```
+- Go to  http://localhost:5000 in your browser
 ### Resources
 - [dot.net](https://www.microsoft.com/net) 
 - [docs.microsoft.com](https://docs.microsoft.com/)
