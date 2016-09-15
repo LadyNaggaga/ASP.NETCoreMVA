@@ -11,7 +11,12 @@
 
     ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Filenew.png)
 
+<<<<<<< HEAD
     This can also be done in the commandline with 
+=======
+**This can also be done in the commandline with**
+   
+>>>>>>> 20b51a06e01baa1e7e2443c6bdf3e44edde7a531
     ```sh
     dotnet new -t web
 
