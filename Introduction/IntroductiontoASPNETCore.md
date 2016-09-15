@@ -113,11 +113,11 @@
 
 ## Changing environments
 
-1. The default environment in visual studio is development. In the property pages you can see this is specified by the environment variables section:
+- The default environment in visual studio is development. In the property pages you can see this is specified by the environment variables section:
 
   ![image](https://cloud.githubusercontent.com/assets/95136/15806164/a57a79a2-2b3d-11e6-9551-9e106036e0c0.png)
 
-1. Add some code to the `Configure` method in `Startup.cs` to print out the environment name. Make sure you comment out the UseFileServer middleware. Otherwise you'll still get the same default static page.
+- Add some code to the `Configure` method in `Startup.cs` to print out the environment name. Make sure you comment out the UseFileServer middleware. Otherwise you'll still get the same default static page.
 
   ```C#
   public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
@@ -137,16 +137,16 @@
       });
   }
 ```
-1. Run the application and it should print out `Hello World! Development`. 
-1. Change the application to run in the `Production` environment by changing the `ASPNETCORE_ENVIRONMENT` environment variable on the `Debug` property page:
+- Run the application and it should print out `Hello World! Development`. 
+- Change the application to run in the `Production` environment by changing the `ASPNETCORE_ENVIRONMENT` environment variable on the `Debug` property page:
  
   ![image](https://cloud.githubusercontent.com/assets/95136/15806196/9b52efee-2b3e-11e6-851b-35765d5b2a4d.png)
 
-1. Run the application and it should print out `Hello World! Production`.
+- Run the application and it should print out `Hello World! Production`.
 
 ## Setup the configuration system
 
-1. Add the `Microsoft.Extensions.Configuration.Json` package to `project.json`:
+- Add the `Microsoft.Extensions.Configuration.Json` package to `project.json`:
  
   ```JSON
   "dependencies": {
@@ -184,8 +184,8 @@
                           .Build();
   }
   ```
-1. Run the application. It should fail with an exception saying that it cannot find the `'appsettings.json'`.
-1. Create a file in the root of the project called `appsettings.json` with the following content:
+- Run the application. It should fail with an exception saying that it cannot find the `'appsettings.json'`.
+- Create a file in the root of the project called `appsettings.json` with the following content:
   
   ```JSON
   {
@@ -193,7 +193,7 @@
   }
   ```
   
-1. Modify the `Startup` constructor in `Startup.cs` to inject `IHostingEnvironment` and use it to set the base path for the configuration system to the `ContentRootPath`:
+- Modify the `Startup` constructor in `Startup.cs` to inject `IHostingEnvironment` and use it to set the base path for the configuration system to the `ContentRootPath`:
 
   ```C#
   public Startup(IHostingEnvironment env)
@@ -205,7 +205,7 @@
   }
   ```
   
-1. In `Startup.cs` modify the `Configure` method to print out the configuration key in the http response:
+- In `Startup.cs` modify the `Configure` method to print out the configuration key in the http response:
 
 ```C#
     public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
@@ -226,7 +226,7 @@
     }
 ```
 
-1. Run the application and it should print out `Hello from config`.
+- Run the application and it should print out `Hello from config`.
 
 ## Extra
 - Add support for reloading the configuration without an application restart.
