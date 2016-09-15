@@ -46,7 +46,7 @@
 ```sh
     code .
 ```
-- Edit Program.cs.
+####Edit Code 
 
 *Option 1: Consider updating program.cs to accept input* 
 ```sh
