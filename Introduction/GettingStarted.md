@@ -141,11 +141,13 @@ namespace movingtoweb
 ### Extra 
 Consider showing [dotnet watch](https://docs.asp.net/en/latest/tutorials/dotnet-watch.html?highlight=dotnet%20watch).
 - Open project.json file and add the Microsoft.DotNet.Watcher.Tools see the below 
-  ```sh
-     "tools":{
-        "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final"
-      },
+
+```sh
+    "tools":{
+         "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final"
+          },
 ```
+ 
 - Restore packages
 ```sh
     dotnet restore
