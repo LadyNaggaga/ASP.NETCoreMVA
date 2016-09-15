@@ -8,9 +8,10 @@
 - Create a new ASP.NET Core application 
 
     Go to File New Project -> C# -> ASP.NET Core Web Application (.NET Core)
-    
-    ![image](Images/Filenew.png)
+
+    ![image](Images/FileNew.PNG)
+
+
 ## Running the application under IIS or on Kestrel 
 
-## Using the Middleware 
-
+## Using the Middleware
