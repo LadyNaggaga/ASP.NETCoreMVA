@@ -13,6 +13,7 @@
 
 ## Running the application under IIS or on Kestrel 
 - Change the Debug drop dowen inthe toolbar to the application name
+
 ![image](Images/run-with-kestrel.png)
 
 - Run the application and navigate to the root. It should show the hello world middleware.
