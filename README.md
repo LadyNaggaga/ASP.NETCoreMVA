@@ -8,39 +8,38 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 *Meet ASP.NET Core*
 
 **Day 1** is 100 - 200 level  introduction to ASP.NET Core. By the end of the day your audience will have understanding of:
- - ASP.NET Core
- - Tooling available  
- - Middleware 
- - Routing and MVC
- - Logging and Diagnostics
+ - [.NET SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/GettingStarted.md() 
+ - [Introduction to ASP.NET Core and  Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/IntroductiontoASPNETCore.md)
+ - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/RoutingandMVC.md)
+ - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md)
 
-For day 1 labs and demo script [click here link coming soon]
+
 
 ### Day 2 Advanced Introduction to ASP.NET Core 1.0 
 
 *The how to guide*
 
 **Day 2** is 200 - 300 level advanced introduction to ASP.NET Core. By the end of the day your audience will have a an understanding on how to do the following:
-- Building Custom Middleware
-- Dependency Injection & Unit Testing
-- Razor Tag Helpers
-- Single Page Applications with Angular 2
-- APIs and MVC Core 
-- Entity Framework Core
-- Publishing & Deployment 
+- [Building Custom Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md)
+- [Dependency Injection & Unit Testing](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/DependencyInjectionandunittesting.md)
+- [Razor Tag Helpers](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/RazorTagHelpers.md)
+- [Single Page Applications with Angular 2](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/SPA.md)
+- [APIs and MVC Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/APIsandMVCCore.md) 
+- [Entity Framework Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/Entityframeworkcore.md)
+- [Publishing & Deployment](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/Publishinganddeployment.md) 
 
-For day 2 labs and demo script [click here link coming soon]
+
 
 ### Day 3 .NET Core  on Linux /  Cross Platform 
 
 *.NET Core Everywhere*
 
 **Day 3**  is mix of 100 - 200 & 200 -300 level content. By the end of the day your audience will have understanding of:
-- Getting Started with ASP.NET Core on Mac and Ubuntu
-- Tooling available
-- Introduction to ASP.NET MVC 
-- Deploying to Linux Server 
-- Getting started with containers with Docker 
+- [Getting Started with .NET Core on Mac and Ubuntu](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/ASPNETUBUNTU.md)
+- [Introduction to ASP.NET Core and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/IntroductiontoASPNETCore.md)
+- [Introduction to ASP.NET MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/ASPNETMVC.md)
+- [Deploying to Linux Server](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/DeployingtoLinux.md) 
+- [Getting started with containers with Docker](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/WorkingwithContainers.md)
 
 For day 3 labs and demo script [click here link coming soon]
 
