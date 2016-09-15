@@ -11,7 +11,8 @@
 
     ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Filenew.png)
 
-*This can also be done in the commandline with* 
+**This can also be done in the commandline with**
+   
     ```sh
     dotnet new -t web
 
