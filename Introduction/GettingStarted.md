@@ -164,5 +164,8 @@ Consider showing [dotnet watch](https://docs.asp.net/en/latest/tutorials/dotnet-
 
 ## Resources
 - [dot.net](https://www.microsoft.com/net) 
+
+**Spend sometime goign through the C# tutorials**
+
 - [docs.microsoft.com](https://docs.microsoft.com/)
 
