@@ -11,13 +11,17 @@
 
     ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Filenew.png)
 
-    This can also be done in dotnet new -t Web
-    Add screenshot
+    This can also be done in the commandline with 
+    ```sh
+    dotnet new -t web
 
+    ```
+*if done in commandline open program in vs code to show file structure*
+     
 ## Running the application under IIS or on Kestrel 
 - Change the Debug drop down in the toolbar to the application name
 
-![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/run-with-kestrel.png)
+    ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/run-with-kestrel.png)
 
 - Run the application and navigate to the root. It should show the hello world middleware.
 - Change the port to `8081` by adding a call to `UseUrls` in the `Program.cs`:
