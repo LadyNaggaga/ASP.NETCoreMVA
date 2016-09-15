@@ -9,7 +9,7 @@
 
     Go to File New Project -> C# -> ASP.NET Core Web Application (.NET Core)
 
-    ![image](Images/Filenew.PNG)
+    ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Filenew.png)
 
 
 ## Running the application under IIS or on Kestrel 
