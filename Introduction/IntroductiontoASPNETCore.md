@@ -14,7 +14,7 @@
 ## Running the application under IIS or on Kestrel 
 - Change the Debug drop dowen inthe toolbar to the application name
 
-![image](Images/run-with-kestrel.png)
+![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/run-with-kestrel.png)
 
 - Run the application and navigate to the root. It should show the hello world middleware.
 - Change the port to `8081` by adding a call to `UseUrls` in the `Program.cs`:
