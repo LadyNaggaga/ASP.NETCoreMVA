@@ -16,7 +16,3 @@
 
 ## Using the Middleware 
 
-
-
-=======
->>>>>>> 8e7cfa6a24a661f8a878d85554a2ed04a1ca567a
