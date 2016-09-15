@@ -97,7 +97,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 
-namespace aspnetcoreapp
+namespace movingtoweb
 {
     public class Startup
     {
@@ -105,7 +105,7 @@ namespace aspnetcoreapp
         {
             app.Run(context =>
             {
-                return context.Response.WriteAsync("Hello from ASP.NET Core!");
+                return context.Response.WriteAsync("Hello I'm the Web");
             });
         }
     }
@@ -116,7 +116,7 @@ namespace aspnetcoreapp
 using System;
 using Microsoft.AspNetCore.Hosting;
 
-namespace aspnetcoreapp
+namespace movingtoweb
 {
     public class Program
     {
@@ -138,7 +138,29 @@ namespace aspnetcoreapp
 ```
 - Go to  http://localhost:5000 in your browser
 
-### Resources
+### Extra 
+Consider showing [dotnet watch](https://docs.asp.net/en/latest/tutorials/dotnet-watch.html?highlight=dotnet%20watch).
+- Open project.json file and add the Microsoft.DotNet.Watcher.Tools see the below 
+  ```sh
+     "tools":{
+        "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final"
+      },
+```
+- Restore packages
+```sh
+    dotnet restore
+```
+![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/dotnetrestorewatcher.PNG)
+- Show the dotnet commands using dotnet watch for example 
+```sh
+    dotnet run 
+    changes to 
+    dotnet watch run
+```
+![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/dotnetrunwatch.png)
+
+
+## Resources
 - [dot.net](https://www.microsoft.com/net) 
 - [docs.microsoft.com](https://docs.microsoft.com/)
 

@@ -11,6 +11,9 @@
 
     ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Filenew.png)
 
+    This can also be done in dotnet new -t Web
+    Add screenshot
+
 ## Running the application under IIS or on Kestrel 
 - Change the Debug drop dowen inthe toolbar to the application name
 
