@@ -46,7 +46,9 @@
 ```sh
     code .
 ```
-- Add edit code. Consider updating program.cs to accept input 
+- Edit Program.cs.
+
+*Consider updating program.cs to accept input* 
 ```sh
     public static void Main(string[] args)
         {
