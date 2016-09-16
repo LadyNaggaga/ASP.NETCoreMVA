@@ -10,7 +10,7 @@
   "Microsoft.AspNetCore.Routing": "1.0.0"
 }
 ```
-- 
+
 ### Capture and Use Data 
 
 ## Introduction to MVC 
@@ -26,7 +26,7 @@ When a you the visits a website the following things happen
 - The **Controller** recieves the page request. 
 - **Controller** sends the request to the **Model** to retrieve all the requested data.
 - The **Model** stores and packages the data to be presented to you in the **View**
-
+![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Pattern.png)
 
 
 
