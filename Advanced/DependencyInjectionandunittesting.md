@@ -7,7 +7,7 @@
 	- Register the request ID service in DI 
 	- Create and add middleware that logs the request ID 
 	- Adding external packages
--  Go through what transient 
+-  Go through [Transient, Scoped, and Singleton](https://docs.asp.net/en/latest/fundamentals/dependency-injection.html)
 
 ## Creating a service to assign request IDs
 
