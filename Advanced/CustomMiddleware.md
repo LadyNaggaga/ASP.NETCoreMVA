@@ -37,7 +37,7 @@
 - Run your application and browse to `http://localhost:8081` *(or localhost:5000 if you are working in a new app)*
 - The debugger will break at the InvalidOperationException
 
-![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/exception.PNG)
+![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/execption.PNG)
 
 - Hit F5 again to continue and you should see an application exception page in the browser
 
