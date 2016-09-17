@@ -4,11 +4,12 @@
 
 - Use application from [introduction into ASP.NET Core 1.0](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/IntroductiontoASPNETCore.md)
 - Add or verify the `Microsoft.Extensions.Logging.Console` package to the `project.json`
+
 ```JSON
       "dependencies": {
         "Microsoft.Extensions.Logging.Console": "1.0.0"
       },
-    ```
+```
 - Open `Startup.cs`  and update the `configure method`
     ```C#
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
