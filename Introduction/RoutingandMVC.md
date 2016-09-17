@@ -3,7 +3,9 @@
 ### Install the Routing Package 
 
 - Create a new ASP.NET Core application 
+
 #### Using Routing Middleware
+
 - Open  project.json file and add the line below as dependency to install the Microsoft.AspNetCore.Routing Package
 ```sh
     "dependencies": {
@@ -76,8 +78,55 @@ When a you the visits a website the following things happen
 - The **Controller** recieves the page request. 
 - **Controller** sends the request to the **Model** to retrieve all the requested data.
 - The **Model** stores and packages the data to be presented to you in the **View**
+![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Pattern.png)
 
-![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/MVCPattern.png)
+### Let's add MVC 
+- Open `project.json` and add "Microsoft.AspNetCore.Mvc" to the `"dependencies"` section and save it:
+
+  ``` JSON
+  "dependencies": {
+    ...,
+    "Microsoft.AspNetCore.Mvc": "1.0.0"
+  }
+  ```
+- Add a "Controllers" folder to your application
+- Create a new class called "HomeController" in the new folder and add the following code:
+
+``` c#
+using Microsoft.AspNetCore.Mvc;
+
+public class HomeController
+{
+  [HttpGet("/")]
+  public string Index() => "Hello from MVC!";
+}
+```
+- Replace the Routing middleware from the previous step with MVC services and middleware in `Startup.cs` as shown:
+
+  ``` c#
+  public void ConfigureServices(IServiceCollection services)
+  {
+      services.AddMvc();
+  }
+  
+  public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+  {
+      loggerFactory.AddConsole();
+
+      if (env.IsDevelopment())
+      {
+          app.UseDeveloperExceptionPage();
+      }
+
+      app.UseMvc();
+  }
+```
+
+- Run the site and verify the message is returned from your MVC controller
+- If you have time, try the following:
+  - Change the controller to render a view instead of returning a string directly
+  - Play with the `[HttpGet("/")]` attribute to change the route the action method will match
+
 
 
 
