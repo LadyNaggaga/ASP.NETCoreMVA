@@ -8,9 +8,7 @@
 -  Third party tag helpers 
 - Create custom tag helpers. [Example] (https://github.com/dpaquette/TagHelperSamples/tree/master/TagHelperSamples/src/TagHelperSamples.Markdown)
 
-# Working with Razor Tag Helpers
-
-## Look at Tag Helpers in the project template
+### Working with Tag helpers
 - Create a new ASP.NET Core project using the "Web Application" template with "Individual User Accounts" selected.
 
   ![image](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/new-webapp-individual-accounts.PNG)
