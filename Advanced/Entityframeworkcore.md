@@ -11,4 +11,6 @@
 	-  Updating the database
 	-  CLI and PMC commands
 - Scaffolding a DbContext from an existing database
+
+*full module coming after MVA*
 	
