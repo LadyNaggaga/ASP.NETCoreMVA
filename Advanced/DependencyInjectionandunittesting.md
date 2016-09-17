@@ -128,7 +128,7 @@
 
 -  Change the Debug drop down in the toolbar to the application name as shown below.
   
-  ![image](Images/run-with-kestrel.png)
+  ![image](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/run-with-kestrel.png)
 
 - Run the application. You should see the logging messages from the middleware in the console output.
 
