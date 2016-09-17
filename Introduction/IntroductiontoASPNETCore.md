@@ -57,13 +57,13 @@
 - Add the `Microsoft.AspNetCore.StaticFiles` package to `project.json`:
 
   ```JSON
+  {
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.0",
       "type": "platform"
     },
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
-    
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
     "Microsoft.Extensions.Logging.Console": "1.0.0",
@@ -94,23 +94,25 @@
   }
 ```
   
-- Create a file called `index.html` with the following contents in the `wwwroot` folder:
+- Create a file called `HelloWorld.html` with the following contents in the `wwwroot` folder:
 
   ```html
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <meta charset="utf-8" />
-      <title></title>
-  </head>
-  <body>
-      <h1>Hello from ASP.NET Core!</h1> 
-  </body>
-  </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1> Hello Again!</h1>
+</body>
+</html>
   ```
 
 - Run the application and navigate to the root. It should show the hello world middleware.
-- Navigate to `index.html` and it should show the static page in `wwwroot`.
+- Navigate to `HelloWorld.html` and it should show the static page in `wwwroot`.
+
+![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/helloagain.PNG)
 
 ## Adding default document support
 
