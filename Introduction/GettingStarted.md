@@ -1,5 +1,8 @@
 # Module 1: Getting Started with ASP.NET Core 
 
+*Module goals: Introduce your audience to .NET Core and the available tools and resources.*
+*Spend time on the .NET CLI show new,run,and watch*
+
 ##Install the .NET Core SDK 
 1. Go to https://dot.net and follow the instructions to download and install the .NET Core SDK for your OS
 
