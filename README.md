@@ -10,7 +10,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 **Day 1** is 100 - 200 level  introduction to ASP.NET Core. By the end of the day your audience will have understanding of:
  - [.NET SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/GettingStarted.md) 
  - [Introduction to ASP.NET Core and  Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/IntroductiontoASPNETCore.md)
- - [Multi Project solutions/Share Library]() *Include if needed* Note still underconstruction
+ - [Multi Project solutions/Share Library](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/sharedlibrary.md) *Include if needed* Note still underconstruction
  - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/RoutingandMVC.md)
  - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md)
 
