@@ -9,7 +9,7 @@
 ### Setting up on different environments
 [**OS X**](https://www.microsoft.com/net/core#macos)
 
-- Install Pre-requisites : Homebrew and OpenSSL
+- Install Pre-requisites : [Homebrew](http://brew.sh/) and [OpenSSL](https://www.openssl.org/)
 - .NET Core  for OS X
 
 [**Windows**](https://www.microsoft.com/net/core#windows)
