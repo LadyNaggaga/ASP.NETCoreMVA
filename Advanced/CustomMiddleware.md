@@ -1,5 +1,7 @@
 # Module 5: Building Custom Middleware
 
+*Module Goal: How to build custom Middleware*
+
 ### Understanding the Diagnostics Middleware
 *This module can work on it's own or as a continuation of [using the Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/IntroductiontoASPNETCore.md#using-the-middleware)*
 
