@@ -1,4 +1,4 @@
-# Module 5: Building Custom Middleware
+# Module 2: Building Custom Middleware
 
 *Module Goal: How to build custom Middleware*
 
