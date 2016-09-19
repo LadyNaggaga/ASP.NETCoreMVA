@@ -27,7 +27,6 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
  - Making your own custom tage helpers
 - [Building Custom Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/CustomMiddleware.md)
 - [Dependency Injection](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/DependencyInjectionandunittesting.md)
-- [Razor Tag Helpers](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/RazorTagHelpers.md)
 - [Single Page Applications with Angular 2](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/SPA.md)
 - [APIs and MVC Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/APIsandMVCCore.md) 
 - [Entity Framework Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/Entityframeworkcore.md)
