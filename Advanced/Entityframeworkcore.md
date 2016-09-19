@@ -1,4 +1,4 @@
-# Module 10: Entity Framework Core 
+# Module 6: Entity Framework Core 
 *Module goals*
 - Getting started with the EFCore
 	- Configuring DbContext in DI
