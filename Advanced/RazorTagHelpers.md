@@ -1,4 +1,4 @@
-# Module 7:Tag Helpers
+# Module 1:Tag Helpers
 
 #### *Modules goals*
 -  What is a tag helper 
