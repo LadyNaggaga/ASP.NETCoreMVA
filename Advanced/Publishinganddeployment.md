@@ -1,4 +1,4 @@
-# Module 11: Publishing and Deployment 
+# Module 6: Publishing and Deployment 
 
 ### *Modules goals*
 
