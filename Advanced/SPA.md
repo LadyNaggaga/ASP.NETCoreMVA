@@ -1,4 +1,4 @@
-# Module 8: Single Page Applications with Angular 2
+# Module 4: Single Page Applications with Angular 2
 
 #### *Modules goals*
 -  Emphasis the importance of SPA 
