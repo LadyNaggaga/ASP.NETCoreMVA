@@ -1,4 +1,4 @@
-# Module 6: Dependency Injection 
+# Module 3: Dependency Injection 
 
 #### *Modules goals*
 
