@@ -17,7 +17,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 
 
 
-### Day 2 Advanced Introduction to ASP.NET Core 1.0 
+### Day 2 Intermediate Guide to ASP.NET Core 1.0 
 
 *The how to guide*
 
