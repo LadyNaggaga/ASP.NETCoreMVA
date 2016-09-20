@@ -101,8 +101,11 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
 
 ```
 - Run the application and open a browser window with http://localhost:8081/ as the address. You should see the custom error page instead of the browser's default 404 page.
+
 ### Extra
+
 If you have time add authentication with third party authentication using ```dotnet user-secrets```
+
 Resources 
 - [More on Custom Middleware](https://msdn.microsoft.com/en-us/magazine/mt707525.aspx)
 - [Middleware in general](https://docs.asp.net/en/latest/fundamentals/middleware.html?highlight=middleware)
