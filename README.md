@@ -24,7 +24,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 **Day 2** is 200 - 300 level advanced introduction to ASP.NET Core. By the end of the day your audience will have a an understanding on how to do the following:
 - [Tag Helpers](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/RazorTagHelpers.md)
  - Basic Tag Helpers
- - Making your own custom tage helpers
+ - Making your own custom tag helpers
 - [Building Custom Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/CustomMiddleware.md)
 - [Dependency Injection](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/DependencyInjectionandunittesting.md)
 - [APIs and MVC Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/APIsandMVCCore.md) 
