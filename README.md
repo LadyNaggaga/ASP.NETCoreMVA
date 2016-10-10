@@ -45,7 +45,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 - [Deploying to Linux Server](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/DeployingtoLinux.md) 
 - [Getting started with containers with Docker](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/WorkingwithContainers.md)
 
-For day 3 labs and demo script [click here link coming soon]
+
 
 
 
