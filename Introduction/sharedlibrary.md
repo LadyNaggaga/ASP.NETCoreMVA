@@ -1,6 +1,6 @@
-#Module 2.1: Application Configuration and Nuget Packages 
+#Module 2.1: Shared Libraries 
 
-### Watch: [Application Configuration and Nuget Packages here.](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=KxVi3dE6C_7606218965)
+### Watch: [Building Nuget Packages](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=KxVi3dE6C_7606218965)
 *Notes*
 - Make the folder structure like this:
 	- Global.json
