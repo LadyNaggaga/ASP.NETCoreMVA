@@ -1,4 +1,4 @@
-#Module 2.1: Application Configuration and Nuget Packages here
+#Module 2.1: Application Configuration and Nuget Packages 
 
 ### Watch: [Application Configuration and Nuget Packages here.](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=KxVi3dE6C_7606218965)
 *Notes*
