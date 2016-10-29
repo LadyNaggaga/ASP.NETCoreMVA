@@ -1,11 +1,11 @@
-# Module 2: Introduction into ASP.NET Core 1.0
+ # Module 2: Introduction into ASP.NET Core 1.0
 
 *Module goal: In this module we are taking the audience from Console App to WebApp. During during the module will be introduced to the following:*
 - *Create a new web app both in VS2015 and commandline*
 - *How to run an application with IIS or Kestrel*
 - *An intro to using the middleware. E.g. Serving Static files*
 
-#### Watch:[Getting Started with Middleware](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=yCG2vdE6C_6406218965)
+#### Watch:[Getting Started with Middleware MVA here.](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=yCG2vdE6C_6406218965)
 ## Create a new Web Application 
 
 **For this section you can either use VS Code or Visual Studio 2015 with update 3. If you would like to do this section in VS Code please checkout the [cross platform section](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/IntroductiontoASPNETCore.md).**
