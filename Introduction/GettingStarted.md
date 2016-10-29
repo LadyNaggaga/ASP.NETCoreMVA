@@ -3,7 +3,7 @@
 *Module goals: Introduce your audience to .NET Core and the available tools and resources.*
 *Spend time on the .NET CLI show new,run,and watch*
 
-####[Watch the Introduction to ASP.NET Core on MVA, You can follow along here](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=JWZaodE6C_5706218965#) 
+####[Watch: Introduction to ASP.NET Core on MVA.You can follow along here](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=JWZaodE6C_5706218965#) 
 
 ##Install the .NET Core SDK 
 1. Go to https://dot.net and follow the instructions to download and install the .NET Core SDK for your OS
