@@ -1,6 +1,9 @@
 # Module 3: Introduction to Routing & MVC 
 
+### Watch: [Getting Started with Routing MVA here](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=sJ0cLeE6C_9206218965)
+
 ### Install the Routing Package 
+
 
 - Create a new ASP.NET Core application 
 
@@ -68,7 +71,7 @@
 ## Introduction to MVC 
 
 **[What is the MVC pattern?](https://docs.asp.net/en/latest/mvc/overview.html)**
-
+#### Watch: [Getting Started with MVC here](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=yiobVeE6C_3506218965)
 ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/MVC.png)
 
 *The illustration above is a simple explanation of the  MVC pattern.*

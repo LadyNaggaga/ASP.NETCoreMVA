@@ -4,6 +4,7 @@
 - *How to filter logs*
 - *Add 3rd party logging provideres*
 - *Web logging*
+### Watch: [Getting Started with Logging and Diagnostics here ](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=lVrHmeE6C_9406218965)
 
 ### Setup for logging 
 
