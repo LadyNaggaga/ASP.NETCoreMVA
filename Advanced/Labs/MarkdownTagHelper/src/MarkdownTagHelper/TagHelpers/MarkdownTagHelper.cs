@@ -13,7 +13,7 @@ namespace MarkdownTagHelper.TagHelpers
   {
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
-      output.TagName = null;
+      //output.TagName = null;
 
       var childContent = await output.GetChildContentAsync();
       var lines = childContent.GetContent()
