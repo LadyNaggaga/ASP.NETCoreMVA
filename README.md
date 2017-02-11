@@ -20,7 +20,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 ### Day 2 Intermediate Guide to ASP.NET Core 1.0 
 
 *The how to guide*
-
+### [Watch: Intermediate Guide to ASP.NET Core 1.0 here](https://mva.microsoft.com/en-US/training-courses/intermediate-aspnet-core-10-16964)
 **Day 2** is 200 - 300 level advanced introduction to ASP.NET Core. By the end of the day your audience will have a an understanding on how to do the following:
 - [Tag Helpers](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/RazorTagHelpers.md)
  - Basic Tag Helpers
@@ -37,7 +37,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 ### Day 3 .NET Core  on Linux /  Cross Platform 
 
 *.NET Core Everywhere*
-
+### [Watch: .NET Core  on Linux /  Cross Platform here](https://mva.microsoft.com/en-US/training-courses/aspnet-core-10-crossplatform-17039)
 **Day 3**  is mix of 100 - 200 & 200 -300 level content. By the end of the day your audience will have understanding of:
 - [Getting Started with .NET Core on Mac and Ubuntu](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/ASPNETUBUNTU.md)
 - [Introduction to ASP.NET Core and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/IntroductiontoASPNETCore.md)
