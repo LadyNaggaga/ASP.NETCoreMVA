@@ -3,8 +3,6 @@
 *Module goals: Introduce your audience to .NET Core and the available tools and resources.*
 *Spend time on the .NET CLI show new,run,and watch*
 
-####[Watch: Introduction to ASP.NET Core on MVA.You can follow along here](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=JWZaodE6C_5706218965#) 
-
 ##Install the .NET Core SDK 
 1. Go to https://dot.net and follow the instructions to download and install the .NET Core SDK for your OS
 
@@ -36,7 +34,7 @@
 
     cd hello
 
-    dotnet new
+    dotnet new console
 ```
 **Run app**
 ```sh
@@ -57,40 +55,28 @@
 ```sh
     public static void Main(string[] args)
         {
-            string myname;
+            string name;
             
             Console.WriteLine("What's your names");
             myname = Console.ReadLine();
 
-            Console.WriteLine("Hello {0} thanks for using this material", myname);
+            Console.WriteLine($"Hello {name} thanks for using this material");
             
         }
 ```
 *Option 2: Hello World Console to Hello World Web*
 
-- Add the Kestrel HTTP Server package as  dependency in the project.json file
+- Add the Kestrel HTTP Server package as  dependency in the csproj file
 ```sh
-    {
-        "version": "1.0.0-*",
-        "buildOptions": {
-        "debugType": "portable",
-        "emitEntryPoint": true
-  },
-        "dependencies": {},
-        "frameworks": {
-        "netcoreapp1.0": {
-        "dependencies": {
-            "Microsoft.NETCore.App": {
-            "type": "platform",
-            "version": "1.0.0"
-        },
-        "Microsoft.AspNetCore.Server.Kestrel": "1.0.0"
-      },
-      "imports": "dnxcore50"
-    }
-  }
-}
-```
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
+   ```
 - Restore the packages 
 ```sh
     dotnet restore
@@ -110,7 +96,7 @@ namespace movingtoweb
         {
             app.Run(context =>
             {
-                return context.Response.WriteAsync("Hello I'm the Web");
+                return context.Response.WriteAsync("Hello Web!");
             });
         }
     }
@@ -144,33 +130,27 @@ namespace movingtoweb
 - Go to  http://localhost:5000 in your browser
 
 ### Extra 
-Consider showing [dotnet watch](https://docs.asp.net/en/latest/tutorials/dotnet-watch.html?highlight=dotnet%20watch).
-- Open project.json file and add the Microsoft.DotNet.Watcher.Tools see the below 
+Consider showing [dotnet watch](https://docs.microsoft.com/en-us/aspnet/core/tutorials/dotnet-watch).
+- Open csproj file and add the Microsoft.DotNet.Watcher.Tools see the below 
 
 ```
-    "tools":{
-         "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final"
-          },
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0-msbuild3-final" />
 ```
  
 - Restore packages
 ```sh
     dotnet restore
 ```
-![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/dotnetrestorewatcher.PNG)
 - Show the dotnet commands using dotnet watch for example 
 ```sh
     dotnet run 
     changes to 
     dotnet watch run
 ```
-![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/dotnetrunwatch.png)
 
 
 ## Resources
 - [dot.net](https://www.microsoft.com/net) 
-
-**Spend sometime goign through the C# tutorials**
 
 - [docs.microsoft.com](https://docs.microsoft.com/)
 
