@@ -1,4 +1,4 @@
-:smiley:# ASP.NET Core MVA
+# ASP.NET Core MVA
 
 This repository provides you with demo scripts, codes and links to get you up and running a three day workshop on an introduction to ASP.NET Core.
 [Link to recording coming soon]
