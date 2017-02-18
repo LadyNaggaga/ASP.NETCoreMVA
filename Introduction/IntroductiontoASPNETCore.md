@@ -1,4 +1,5 @@
- # Module 2: Introduction into ASP.NET Core 
+# Module 2: Introduction into ASP.NET Core 
+
 
 *Module goal: In this module we are taking the audience from Console App to WebApp. During during the module will be introduced to the following:*
 - *Create a new web app both in VS2017 and commandline*
@@ -109,7 +110,7 @@ Option 1: Edit by hand
           await context.Response.WriteAsync("Hello World!");
       });
   }
-
+```
 - Create a file called `index.html` with the following contents in the `wwwroot` folder:
 
 
