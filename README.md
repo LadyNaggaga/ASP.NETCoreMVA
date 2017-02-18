@@ -8,7 +8,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 *Meet ASP.NET Core*
 ### [Watch: Introduction to ASP.NET Core 1.0 MVA here](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841)
 **Day 1** is 100 - 200 level  introduction to ASP.NET Core. By the end of the day your audience will have understanding of:
- - [.NET Core SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/GettingStarted.md) 
+ - [.NET Core SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_update/Introduction/GettingStarted.md) 
  - [Introduction to ASP.NET Core and  Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/IntroductiontoASPNETCore.md)
   -  Sub: Configuration continuation from the Middleware
  - [Multi Project solutions/Share Library](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/sharedlibrary.md) 
