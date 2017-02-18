@@ -5,7 +5,6 @@
 - *How to run an application with IIS or Kestrel*
 - *An intro to using the middleware. E.g. Serving Static files*
 
-#### Watch:[Update Link- Getting Started with Middleware MVA here.](https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-core-1-0-16841?l=yCG2vdE6C_6406218965)
 ## Create a new Web Application 
 
 **For this section you can either use VS Code or Visual Studio 2017 RTM. If you would like to do this section in VS Code please checkout the [cross platform section](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/IntroductiontoASPNETCore.md).**
@@ -14,9 +13,9 @@
 - Create a new ASP.NET Core application 
 
     Go to File New Project ->.NETCore -> ASP.NET Core Web Application (.NET Core)
-
-    ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Filenew.png)
-    ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Filenew_empty.png)
+    ![image](https://cloud.githubusercontent.com/assets/2546640/23097413/12b3d5de-f601-11e6-83e7-548dddd63159.png)
+    ![image](https://cloud.githubusercontent.com/assets/2546640/23097436/ba329502-f601-11e6-99e6-2a6f21cd3193.png)
+    
 
 **This can also be done in the commandline with**
   
@@ -27,8 +26,7 @@
      
 ## Running the application under IIS or on Kestrel 
 - Change the Debug drop down in the toolbar to the application name
-
-    ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/run-with-kestrel.png)
+    ![image](https://cloud.githubusercontent.com/assets/2546640/23097455/40937bfc-f602-11e6-941f-f78a50799bc3.png)
 
 - Run the application and navigate to the root. It should show the hello world middleware.
 - Change the port to `8081` by adding a call to `UseUrls` in the `Program.cs`:
@@ -52,8 +50,7 @@
    ```
 - Navigate to the project properties (by right clicking on the project, and selection `Properties`)
 - Go to the `Debug` tab --> Application properties--> Debug and change `Launch URL` to `http://localhost:8081`
-     
-    ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/ChangePorts.png)
+    ![image](https://cloud.githubusercontent.com/assets/2546640/23097466/89975a26-f602-11e6-835f-ccf7fb6629d9.PNG) 
    
 - Run the application and navigate to the root. It should show the hello world middleware running on port 8081.
 
@@ -65,9 +62,10 @@
 - Add the `Microsoft.AspNetCore.StaticFiles` package to `csproj`: 
 
 *To edit your csproj in Visual Studio: Right click on your application name and select edit csproj*
-![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/editcsproj.png)
 
-Option 1:Edit by hand 
+![image](https://cloud.githubusercontent.com/assets/2546640/23097477/d0004d9c-f602-11e6-89b3-a898ed01c931.PNG)
+
+Option 1: Edit by hand 
   ```XML
  <Project Sdk="Microsoft.NET.Sdk.Web">
 
@@ -87,8 +85,9 @@ Option 1:Edit by hand
 </Project>
   ```
   Option 2: Use NuGet package manager
-  
-  ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/nugetUI.png)
+
+  ![image](https://cloud.githubusercontent.com/assets/2546640/23097484/f721881e-f602-11e6-8539-e4d6b9f1626f.PNG)
+
 - Save `csproj`. Visual Studio will immediately begin restoring the StaticFiles NuGet package.
 
 - Go to `Startup.cs` in the `Configure` method and add `UseStaticFiles` before the hello world middleware:
@@ -130,7 +129,7 @@ Option 1:Edit by hand
 - Run the application and navigate to the root. It should show the hello world middleware.
 - Navigate to `index.html` and it should show the static page in `wwwroot`.
 
-![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/helloagain.PNG)
+![image](https://cloud.githubusercontent.com/assets/2546640/23097492/36a63aa2-f603-11e6-88b5-3762c987d8ca.PNG)
 
 ## Adding default document support
 
@@ -141,8 +140,8 @@ Option 1:Edit by hand
 
 - The default environment in visual studio is development. In the property pages(shift+F4) you can see this is specified by the environment variables section:
 
-  ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Env_Var.PNG)
-
+  ![image](https://cloud.githubusercontent.com/assets/2546640/23097502/78ffc4b8-f603-11e6-978c-e19063b3d94d.PNG)
+  
 - Add some code to the `Configure` method in `Startup.cs` to print out the environment name. Make sure you comment out the UseFileServer middleware. Otherwise you'll still get the same default static page.
 
   ```C#
@@ -164,8 +163,9 @@ Option 1:Edit by hand
 
 - Run the application and it should print out `Hello World! Development`. 
 - Change the application to run in the `Production` environment by changing the `ASPNETCORE_ENVIRONMENT` environment variable on the `Debug` property page:
- 
-![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/Env_Var_Prd.PNG)
+
+![image](https://cloud.githubusercontent.com/assets/2546640/23097506/9e710aae-f603-11e6-9e7c-77756f0361af.PNG)
+
 
 - Run the application and it should print out `Hello World! Production`.
 
