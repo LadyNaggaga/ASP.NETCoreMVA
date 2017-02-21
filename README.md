@@ -3,20 +3,25 @@
 This repository provides you with demo scripts, codes and links to get you up and running a three day workshop on an introduction to ASP.NET Core.
 [Link to recording coming soon]
 Please feel free to use this content at User Groups,  workshops, demos, conferences and customers.
+*This repository is being updated to the latest .NET Core tooling*
+
 ### Day 1 Introduction to ASP.NET Core 1.0
 
 *Meet ASP.NET Core*
 
+Section is being updated to MSBuild
 **Day 1** is 100 - 200 level  introduction to ASP.NET Core. By the end of the day your audience will have understanding of:
  - [.NET Core SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_update/Introduction/GettingStarted.md) :smiley:
  - [Introduction to ASP.NET Core and  Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/IntroductiontoASPNETCore.md) :smiley:
- - [Multi Project solutions/Share Library](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/sharedlibrary.md) 
- - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/RoutingandMVC.md)
- - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md)
+ - [Multi Project solutions/Share Library](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/sharedlibrary.md) :mute:
+ - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/RoutingandMVC.md) : :pencil2:
+ - [Creating a Form]() :pencil2:
+ - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md) :pencil2:
 
 
 
-### Day 2 Intermediate Guide to ASP.NET Core 1.0 
+### Day 2 Intermediate Guide to ASP.NET Core 1.0  :pencil2:
+Section is being updated to  MSBuild tooling  
 
 *The how to guide*
 
@@ -26,14 +31,15 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
  - Making your own custom tag helpers
 - [Building Custom Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/CustomMiddleware.md)
 - [Dependency Injection](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/DependencyInjectionandunittesting.md)
-- [APIs and MVC Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/APIsandMVCCore.md) 
+- [APIs and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/APIsandMVCCore.md) 
 - [Single Page Applications with Angular 2](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/SPA.md)
 - [Entity Framework Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/Entityframeworkcore.md)
 - [Publishing & Deployment](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/Publishinganddeployment.md) 
 
 
 
-### Day 3 .NET Core  on Linux /  Cross Platform 
+### Day 3 .NET Core  on Linux /  Cross Platform :pencil2:
+Section is being updated to  MSBuild tooling 
 
 *.NET Core Everywhere*
 
