@@ -14,7 +14,7 @@ Section is being updated to MSBuild
  - [.NET Core SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_update/Introduction/GettingStarted.md) :smiley:
  - [Introduction to ASP.NET Core and  Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/IntroductiontoASPNETCore.md) :smiley:
  - [Multi Project solutions/Share Library](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/sharedlibrary.md) *moved*
- - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/RoutingandMVC.md) : :pencil2:
+ - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/RoutingandMVC.md) :smiley:
  - [Creating a Form]() :pencil2:
  - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md) :pencil2:
 
