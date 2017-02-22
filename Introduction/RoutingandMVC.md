@@ -9,8 +9,10 @@
 
 #### Using Routing Middleware
 
-- Open  project.json file and add the line below as dependency to install the Microsoft.AspNetCore.Routing Package
+- Open `csproj` file and add the line below as dependency to install the Microsoft.AspNetCore.Routing Package
+
 *Option 1: Add package using Nuget packet manager in VS 2017*
+
 *Option 2: Use the dotnet add package <package name>*
 ```XML
   <ItemGroup>
@@ -87,7 +89,7 @@ When a you the visits a website the following things happen
 ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/MVCPattern.png)
 
 ### Let's add MVC 
-- Open `csproj` and add "Microsoft.AspNetCore.Mvc" to the `"dependencies"` section and save it:
+- Open `csproj` file and add "Microsoft.AspNetCore.Mvc" to the `"dependencies"` section and save it:
 
   ```XML
   <ItemGroup>
