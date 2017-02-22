@@ -13,7 +13,7 @@
 
 *Option 1: Add package using Nuget packet manager in VS 2017*
 
-*Option 2: Use the dotnet add package <package name>*
+*Option 2: Use the dotnet CLI `dotnet add package <package name>`*
 ```XML
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.0" />
