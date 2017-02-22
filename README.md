@@ -5,7 +5,7 @@ This repository provides you with demo scripts, codes and links to get you up an
 Please feel free to use this content at User Groups,  workshops, demos, conferences and customers.
 *This repository is being updated to the latest .NET Core tooling*
 
-### Day 1 Introduction to ASP.NET Core 1.0
+### Day 1 Introduction to ASP.NET Core
 
 *Meet ASP.NET Core*
 
