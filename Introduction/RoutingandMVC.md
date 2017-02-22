@@ -99,7 +99,7 @@ When a you the visits a website the following things happen
 - Add a "Controllers" folder to your application
 - Create a new class called "HomeController" in the new folder and add the following code:
 
-``` c#
+```c#
 using Microsoft.AspNetCore.Mvc;
 
 public class HomeController
