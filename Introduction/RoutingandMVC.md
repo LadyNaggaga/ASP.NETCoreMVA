@@ -10,15 +10,16 @@
 #### Using Routing Middleware
 
 - Open  project.json file and add the line below as dependency to install the Microsoft.AspNetCore.Routing Package
-```sh
-    "dependencies": {
-  ...,
-  "Microsoft.AspNetCore.Routing": "1.0.0"
-}
+*Option 1: Add package using Nuget packet manager in VS 2017*
+*Option 2: Use the dotnet add package <package name>*
+```XML
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.0" />
+  </ItemGroup>
 ```
 - Open the Startup.cs file
 - Add a routing services to ConfigureServices method in the Startup.cs
-```sh
+```C#
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRouting();
@@ -27,7 +28,7 @@
 
 - In the `Configure` method, create a `RouteBuilder` with a handler for the root of the site and add it to the middleware pipeline:
   
-  ``` c#
+  ```C#
   using Microsoft.AspNetCore.Routing;
   ...
   public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
@@ -48,7 +49,8 @@
   ```
   - Run the site and verify your middleware is hit via routing (Ctrl+F5)
   - Add another route that matches a sub-path:
-    ``` c#
+
+  ``` c#
   routeBuilder.MapGet("sub", context => context.Response.WriteAsync("Hello from sub!"));
   ```
   
@@ -85,13 +87,12 @@ When a you the visits a website the following things happen
 ![Alt Text](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Images/MVCPattern.png)
 
 ### Let's add MVC 
-- Open `project.json` and add "Microsoft.AspNetCore.Mvc" to the `"dependencies"` section and save it:
+- Open `csproj` and add "Microsoft.AspNetCore.Mvc" to the `"dependencies"` section and save it:
 
-  ``` JSON
-  "dependencies": {
-    ...,
-    "Microsoft.AspNetCore.Mvc": "1.0.0"
-  }
+  ```XML
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.1" />
+  </ItemGroup>
   ```
 - Add a "Controllers" folder to your application
 - Create a new class called "HomeController" in the new folder and add the following code:
