@@ -110,7 +110,7 @@ public class HomeController
 ```
 - Replace the Routing middleware from the previous step with MVC services and middleware in `Startup.cs` as shown:
 
-  ``` c#
+  ```C#
   public void ConfigureServices(IServiceCollection services)
   {
       services.AddMvc();
@@ -128,7 +128,6 @@ public class HomeController
       app.UseMvc();
   }
 ```
-
 - Run the site and verify the message is returned from your MVC controller
 - If you have time, try the following:
   - Change the controller to render a view instead of returning a string directly
