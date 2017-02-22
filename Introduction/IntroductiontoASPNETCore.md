@@ -8,7 +8,7 @@
 
 ## Create a new Web Application 
 
-**For this section you can either use VS Code or Visual Studio 2017 RTM. If you would like to do this section in VS Code please checkout the [cross platform section](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/IntroductiontoASPNETCore.md).**
+**For this section you can either use VS Code or Visual Studio 2017 RTM. 
 
 - Open up Visual Studio 2017
 - Create a new ASP.NET Core application 
