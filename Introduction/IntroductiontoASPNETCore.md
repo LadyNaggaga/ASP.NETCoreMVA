@@ -10,7 +10,7 @@
 
 **For this section you can either use VS Code or Visual Studio 2017 RTM. 
 
-- Open up Visual Studio 2017
+- Open up Visual Studio
 - Create a new ASP.NET Core application 
 
     Go to File New Project ->.NETCore -> ASP.NET Core Web Application (.NET Core)
