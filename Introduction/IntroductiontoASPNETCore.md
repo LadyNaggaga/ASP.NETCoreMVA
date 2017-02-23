@@ -10,7 +10,7 @@
 
 **For this section you can either use VS Code or Visual Studio 2017 RTM. If you would like to do this section in VS Code please checkout the [cross platform section](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/CrossPlatform/IntroductiontoASPNETCore.md).**
 
-- Open up Visual Studio 2017
+- Open up Visual Studio
 - Create a new ASP.NET Core application 
 
     Go to File New Project ->.NETCore -> ASP.NET Core Web Application (.NET Core)

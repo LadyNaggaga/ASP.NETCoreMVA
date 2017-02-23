@@ -16,6 +16,7 @@ Section is being updated to MSBuild
  - [Multi Project solutions/Share Library](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/sharedlibrary.md) *moved*
  - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/RoutingandMVC.md) :smiley:
  - [Creating a Form]() :pencil2:
+    - Let's Learn CRUD
  - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md) :pencil2:
 
 

@@ -11,7 +11,7 @@
 
 - Open `csproj` file and add the line below as dependency to install the Microsoft.AspNetCore.Routing Package
 
-*Option 1: Add package using Nuget packet manager in VS 2017*
+*Option 1: Add package using Nuget packet manager in Visual Studio*
 
 *Option 2: Use the dotnet CLI `dotnet add package <package name>`*
 ```XML
