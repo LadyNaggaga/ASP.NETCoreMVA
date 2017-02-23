@@ -28,7 +28,7 @@
 Make a list of Music albums
 - Right click on the Model folder --> Add --> Class --> albums
 ```C#
-  public class Albums
+  public class albums
     {
         public int ID { get; set; }
         public String Artist { get; set; }
@@ -36,7 +36,6 @@ Make a list of Music albums
         public String Genre { get; set; }
         public DateTime ReleaseDate { get; set; }
         public decimal Price { get; set; }
-
     }
 ```
 ### Create a controller 
@@ -45,7 +44,7 @@ Make a list of Music albums
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23244833/09e91150-f956-11e6-9c4b-ddca1961fe65.PNG)
 
-- Select your Model Class : Albums(MusicStore.Models)
+- Select your Model Class : albums(MusicStore.Models)
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23244907/80064204-f956-11e6-8b25-1b84e6227c98.PNG)
 
@@ -85,3 +84,6 @@ In Visual Studio, use the Package Manager Console to scaffold a new migration fo
 > dotnet ef database update 
 
 Run your application again and go to /albums
+
+![image](https://cloud.githubusercontent.com/assets/2546640/23284042/4e6c78de-f9f7-11e6-97ed-67e2fc0b6431.PNG)
+
