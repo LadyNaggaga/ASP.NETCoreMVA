@@ -55,7 +55,33 @@ Make a list of Music albums
 
 - Now, you should that this has scaffolded a new AlbumsControllers and 5 new Views
 
+*Albums Controller*
+
 ![image](https://cloud.githubusercontent.com/assets/2546640/23245055/b878ec6c-f957-11e6-889a-372ea2e4bdf3.PNG)
+
+*Albums Views*
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23245066/bff368c8-f957-11e6-97d7-c5fead3e9b78.PNG)
 
+- Run the application and navigate to /albums
+
+*Should see the errror below*
+
+![image](https://cloud.githubusercontent.com/assets/2546640/23279240/72048792-f9e2-11e6-89de-0e02b16e1a78.PNG)
+
+**Add Database**
+
+*Option 1: Use Visual Studio*
+
+In Visual Studio, use the Package Manager Console to scaffold a new migration for these changes and apply them to the database:
+
+>PM> Add-Migration [migration name]
+
+>PM> Update-Database 
+
+*Option 2: Use dotnet CLI*
+> dotnet ef migrations add [migration name] 
+
+> dotnet ef database update 
+
+Run your application again and go to /albums
