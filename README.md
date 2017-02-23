@@ -3,14 +3,12 @@
 This repository provides you with demo scripts, codes and links to get you up and running a three day workshop on an introduction to ASP.NET Core.
 [Link to recording coming soon]
 Please feel free to use this content at User Groups,  workshops, demos, conferences and customers.
-<<<<<<< HEAD
+
 ### Day 1 Introduction to ASP.NET Core 
 =======
 *This repository is being updated to the latest .NET Core tooling*
 
 ### Day 1 Introduction to ASP.NET Core
->>>>>>> MVA_update
-
 *Meet ASP.NET Core*
 
 Section is being updated to MSBuild
