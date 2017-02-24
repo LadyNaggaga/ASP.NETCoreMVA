@@ -83,7 +83,10 @@ In Visual Studio, use the Package Manager Console to scaffold a new migration fo
 
 > dotnet ef database update 
 
-Run your application again and go to /albums
+- Run your application again and go to /albums
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23284042/4e6c78de-f9f7-11e6-97ed-67e2fc0b6431.PNG)
 
+ - Click Create New 
+
+ ![image](https://cloud.githubusercontent.com/assets/2546640/23285222/d7667f26-f9fd-11e6-878d-84278f40ecca.PNG)
