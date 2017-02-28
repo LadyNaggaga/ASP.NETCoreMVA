@@ -12,12 +12,11 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 
 Section is being updated to MSBuild
 **Day 1** is 100 - 200 level  introduction to ASP.NET Core. By the end of the day your audience will have understanding of:
- - [.NET Core SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_update/Introduction/GettingStarted.md) :smiley:
- - [Introduction to ASP.NET Core and  Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/IntroductiontoASPNETCore.md) :smiley:
+ - [.NET Core SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/GettingStarted.md) :smiley:
+ - [Introduction to ASP.NET Core and  Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/IntroductiontoASPNETCore.md) :smiley:
  - [Multi Project solutions/Share Library](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/sharedlibrary.md) *moved*
- - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/RoutingandMVC.md) :smiley:
- - [Creating a Form]() :pencil2:
-    - Let's Learn CRUD
+ - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/RoutingandMVC.md) :smiley:
+ - [Creating a Form](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/CreatingaForm.md) :smiley:
  - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md) :pencil2:
 
 
