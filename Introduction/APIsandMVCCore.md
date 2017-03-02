@@ -1,6 +1,6 @@
 # Module 5: APIs and MVC Core 
 
-# Build a simple API
+Module Goal: Build a simple API that returns JSON and XML.  
 
 ## Prerequisites
 
@@ -8,7 +8,15 @@
 
 ## Setting up the MVC API project
 
-1. File .
+1. In Visual Studio File-> New Project -> .NET Core -> ASP.NET Core Web Application -> Web API
+
+![image](https://cloud.githubusercontent.com/assets/2546640/23528014/0cac4536-ff4d-11e6-8fb6-2af22ce4d3e7.png)
+
+Or you can use the dotnet CLI 
+
+`dotnet new webapi ` 
+
+
 2. Add `Microsoft.AspNetCore.Mvc.Core` to `project.json`:
 
   ```JSON
