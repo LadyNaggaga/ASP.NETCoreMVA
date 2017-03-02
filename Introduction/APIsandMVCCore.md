@@ -17,40 +17,25 @@ Or you can use the dotnet CLI
 `dotnet new webapi ` 
 
 
-2. Add `Microsoft.AspNetCore.Mvc.Core` to `project.json`:
+**Add a Model**
 
-  ```JSON
-  "dependencies": {
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
-  },
-  ```
-3. In `Startup.cs` add `services.AddMvcCore()` to `ConfigureServices` and add `app.UseMvc()` to `Configure`:
-  
-  ```C#
-  public void ConfigureServices(IServiceCollection services)
-  {
-      services.AddMvcCore();
-  }
-  
-  public void Configure(IApplicationBuilder app)
-  {
-      app.UseMvc();
-  }
-  ```
-
-4. Create a folder called `Models` and create a class called `Product` in that folder:
+2. Create a folder called `Models` and create a class called `Product` in that folder:
 
   ```C#
-  public class Product
-  {
-      public int Id { get; set; }
-      public string Name { get; set; }
-  }
+  namespace Products.Models
+{
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+    }
+}
+
   ```
-  
-5. Create a folder called `Controllers` and create a class called `ProductsController` in that folder.
-6. Add an attribute route `[Route("/api/[controller]")]` to the `ProductsController` class:
+**Add a Controller**
+3. Create a folder called `Controllers` and create a class called `ProductsController` in that folder.
+4. Add an attribute route `[Route("/api/[controller]")]` to the `ProductsController` class:
 
   ```C#
   [Route("/api/[controller]")]
@@ -59,7 +44,7 @@ Or you can use the dotnet CLI
   }
   ```
   
-7. Add a `Get` method to `ProductsController` that returns a `string` "Hello API World" with an attribute route
+5. Add a `Get` method to `ProductsController` that returns a `string` "Hello API World" with an attribute route
 
   ```C#
   [Route("/api/[controller]")]
@@ -70,7 +55,7 @@ Or you can use the dotnet CLI
   }
   ```
 
-8. Run the application and navigate to `/api/products`, it should return the string "Hello World".
+6. Run the application and navigate to `/api/products`, it should return the string "Hello World".
 
 ## Returning JSON from the controller
 
