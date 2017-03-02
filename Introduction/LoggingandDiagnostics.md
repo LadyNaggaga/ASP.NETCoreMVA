@@ -1,4 +1,4 @@
-# Module 4: Logging and Diagnostics 
+# Module 6: Logging and Diagnostics 
 *Module goals: How to add logging to your application*
 - *Setup your app for logging*
 - *How to filter logs*

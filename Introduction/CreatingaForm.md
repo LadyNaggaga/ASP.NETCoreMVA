@@ -1,4 +1,4 @@
-# Creating a Form 
+# Module 3: Create a Form 
 
 *Module goal: In this module we are teaching the audience how to build a simple CRUD application and intro to PRG. During  the module will be introduced to the following:*
 - *Learn how to create a Form with ASP.NET Core*
