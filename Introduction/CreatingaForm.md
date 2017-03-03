@@ -39,7 +39,7 @@ Make a list of Music albums
     }
 ```
 ### Create a controller 
-- Right click on the Controller folder --> Add --> Controller 
+- Right click on the Controller folder --> Add --> scaffolded items 
 - Select the MVC Controller with Views, using Entity Framework 
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23244833/09e91150-f956-11e6-9c4b-ddca1961fe65.PNG)

@@ -2,13 +2,13 @@
 
 
 *Module goal: In this module we are taking the audience from Console App to WebApp. During during the module will be introduced to the following:*
-- *Create a new web app both in VS2017 and commandline*
+- *Create a new web app both in Visual Studio and commandline*
 - *How to run an application with IIS or Kestrel*
 - *An intro to using the middleware. E.g. Serving Static files*
 
 ## Create a new Web Application 
 
-**For this section you can either use VS Code or Visual Studio 2017 RTM. 
+*For this section you can either use VS Code or Visual Studio 2017 RTM.* 
 
 - Open up Visual Studio
 - Create a new ASP.NET Core application 
@@ -132,10 +132,15 @@ Option 1: Edit by hand
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23097492/36a63aa2-f603-11e6-88b5-3762c987d8ca.PNG)
 
+
 ## Adding default document support
 
 - Change the static files middleware in `Startup.cs` from `app.UseStaticFiles()` to `app.UseFileServer()`.
 - Run the application. The default page `index.html` should show when navigating to the root of the site.
+
+## Enabling directory browsing 
+Replace to `app.UseFileServer()` to 
+`app.UseFileServer(enableDirectoryBrowsing: true)`
 
 ## Changing environments
 
