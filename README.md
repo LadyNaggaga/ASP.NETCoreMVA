@@ -17,7 +17,7 @@ Section is being updated to MSBuild
  - [Multi Project solutions/Share Library](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/sharedlibrary.md) *moved*
  - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/RoutingandMVC.md) :smiley:
  - [Creating a Form](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/CreatingaForm.md) :smiley:
- - [Introuction to Web APIs with ASP.NET Core MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/APIsandMVCCore.md) 
+ - [Introuction to Web APIs with ASP.NET Core MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/APIsandMVCCore.md) :smiley:
  - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md) :pencil2:
 
 
