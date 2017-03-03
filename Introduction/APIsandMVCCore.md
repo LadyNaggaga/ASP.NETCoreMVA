@@ -19,12 +19,12 @@ Or you can use the dotnet CLI
 
 **Add a Model**
 
-2. Create a folder called `Models` and create a class called `Product` in that folder:
+2. Create a folder called `Models` and create a class called `Products` in that folder:
 
   ```C#
   namespace Products.Models
 {
-    public class Product
+    public class Products
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -34,13 +34,14 @@ Or you can use the dotnet CLI
 
   ```
 **Add a Controller**
-3. Create a folder called `Controllers` and create a class called `ProductsController` in that folder.
+3. In the Controller folder create a class called `ProductsController`.
 4. Add an attribute route `[Route("/api/[controller]")]` to the `ProductsController` class:
 
   ```C#
   [Route("/api/[controller]")]
   public class ProductsController
   {
+
   }
   ```
   
@@ -59,15 +60,23 @@ Or you can use the dotnet CLI
 
 ## Returning JSON from the controller
 
-1. Add the `Microsoft.AspNetCore.Mvc.Formatters.Json` to `project.json`:
+1. Add the `Microsoft.AspNetCore.Mvc.Formatters.Json` 
 
-  ```JSON
-  "dependencies": {
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Formatters.Json": "1.0.0"
-  },
+*To edit your csproj in Visual Studio: Right click on your application name and select edit csproj*
+
+![image](https://cloud.githubusercontent.com/assets/2546640/23097477/d0004d9c-f602-11e6-89b3-a898ed01c931.PNG)
+
+Option 1: Edit by hand 
+
+  ```XML
+  <ItemGroup>
+  ......
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="1.1.1" />
+    ....
+  </ItemGroup>
   ```
+ Option 2: Use NuGet package manager: Search for `Microsoft.AspNetCore.Mvc.Formatters.Json` 
+![image](https://cloud.githubusercontent.com/assets/2546640/23097484/f721881e-f602-11e6-8539-e4d6b9f1626f.PNG)
 
 2. Configure MVC to use the JSON formatter by changing the `ConfigureServices` in `Startup.cs` to use the following:
 
@@ -85,9 +94,9 @@ Or you can use the dotnet CLI
   public class ProductsController : ControllerBase
   {
       private static List<Product> _products = new List<Product>(new[] {
-          new Product() { Id = 1, Name = "Computer" },
-          new Product() { Id = 2, Name = "Radio" },
-          new Product() { Id = 3, Name = "Apple" },
+          new Product() { Id = 1, Name = "Green Peppers" },
+          new Product() { Id = 2, Name = "Tacos" },
+          new Product() { Id = 3, Name = "Chipotle Sauce" },
       });
       ...
   }
@@ -220,17 +229,8 @@ Or you can use the dotnet CLI
 
 ## Add model validation
 
-1. Add the `Microsoft.AspNetCore.Mvc.DataAnnotations` package to `project.json`:
+1. Add the `Microsoft.AspNetCore.Mvc.DataAnnotations` package to `csproj`:
 
-  ```JSON
-  "dependencies": {
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Formatters.Json": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Formatters.Xml": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.DataAnnotations": "1.0.0"
-  },
-  ```
   
 1. In `Startup.cs` add a call to `AddDataAnnotations()` chained off the `AddMvcCore` method in `ConfigureServices`:
 
@@ -296,16 +296,8 @@ Or you can use the dotnet CLI
 
 ## Adding XML support
 
-1. Add the `Microsoft.AspNetCore.Mvc.Formatters.Xml` package to `project.json`:
+1. Add the `Microsoft.AspNetCore.Mvc.Formatters.Xml` package to `csproj`:
 
-  ```JSON
-  "dependencies": {
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Formatters.Json": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.Formatters.Xml": "1.0.0"
-  },
-  ```
 
 2. In `Startup.cs` add a call to `AddXmlDataContractSerializerFormatters()` chained off the `AddMvcCore` method in `ConfigureServices`:
 
