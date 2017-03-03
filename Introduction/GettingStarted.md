@@ -66,17 +66,21 @@
 ```
 *Option 2: Hello World Console to Hello World Web*
 
-- Add the Kestrel HTTP Server package as  dependency in the csproj file
+- Let's introduce ASP.NET Core to our application as a  dependency in the csproj file.
+*Edit by hand*
 ```sh
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.0</TargetFramework>
-  </PropertyGroup>
-
+    <ItemGroup>
+        <PackageReference Include= "Microsoft.AspNetCore" Version="1.0.0" />
 </Project>
    ```
+*Add package using dotnet cli*
+- You can also add a package using the dotnet CLI
+`dotnet add package Microsoft.AspNetCore`
 - Restore the packages 
 ```sh
     dotnet restore
@@ -134,7 +138,7 @@ Consider showing [dotnet watch](https://docs.microsoft.com/en-us/aspnet/core/tut
 - Open csproj file and add the Microsoft.DotNet.Watcher.Tools see the below 
 
 ```
-    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0-msbuild3-final" />
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="*" />
 ```
  
 - Restore packages
