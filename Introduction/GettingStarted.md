@@ -58,7 +58,7 @@
             string name;
             
             Console.WriteLine("What's your name?");
-            myname = Console.ReadLine();
+            name = Console.ReadLine();
 
             Console.WriteLine($"Hello {name} thanks for using this material");
             
