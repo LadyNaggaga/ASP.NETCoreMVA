@@ -21,7 +21,7 @@
 - Set up the apt-get that hosts the packages 
 - Install .NET Core SDK
 
-###Introduction to the .NET CLI
+### Introduction to the .NET CLI
 
 - Test that you have you .NET installed by going to commandline or terminal and typing 
 ```sh
@@ -49,7 +49,7 @@
 ```sh
     code .
 ```
-####Edit Code 
+#### Edit Code 
 
 *Option 1: Consider updating program.cs to accept input* 
 ```sh
@@ -67,6 +67,7 @@
 *Option 2: Hello World Console to Hello World Web*
 
 - Let's introduce ASP.NET Core to our application as a  dependency in the csproj file.
+
 *Edit by hand*
 ```sh
 <Project Sdk="Microsoft.NET.Sdk">
@@ -86,6 +87,7 @@
     dotnet restore
 ```
 - Add a Startup.cs file that defines the request handling logic:
+
 ```sh
 using System;
 using Microsoft.AspNetCore.Builder;
@@ -107,6 +109,7 @@ namespace movingtoweb
 }
 ```
 - Update Program.cs to setup and start the web host 
+
 ```sh
 using System;
 using Microsoft.AspNetCore.Hosting;
