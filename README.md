@@ -9,7 +9,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 
 
 *Meet ASP.NET Core*
-
+*Note: Updated to 1.1*
 Section is being updated to MSBuild
 **Day 1** is 100 - 200 level  introduction to ASP.NET Core. By the end of the day your audience will have understanding of:
  - [.NET Core SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/GettingStarted.md) :smiley:
@@ -18,7 +18,7 @@ Section is being updated to MSBuild
  - [Routing and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/RoutingandMVC.md) :smiley:
  - [Creating a Form](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/CreatingaForm.md) :smiley:
  - [Introuction to Web APIs with ASP.NET Core MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/APIsandMVCCore.md) :smiley:
- - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md) :pencil2:
+ - [Logging and Diagnostics](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Introduction/LoggingandDiagnostics.md)
 
 
 
@@ -27,16 +27,30 @@ Section is being updated to  MSBuild tooling
 
 *The how to guide*
 
+*Note: Updating to 2.0*
+
 **Day 2** is 200 - 300 level advanced introduction to ASP.NET Core. By the end of the day your audience will have a an understanding on how to do the following:
-- [Tag Helpers](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/RazorTagHelpers.md)
- - Basic Tag Helpers
- - Making your own custom tag helpers
-- [Building Custom Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/CustomMiddleware.md)
-- [Dependency Injection](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/DependencyInjectionandunittesting.md)
-- [APIs and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/APIsandMVCCore.md) 
-- [Single Page Applications with Angular 2](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/SPA.md)
-- [Entity Framework Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/Entityframeworkcore.md)
-- [Publishing & Deployment](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced/Publishinganddeployment.md) 
+
+- [Tag Helpers](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced_2.0/RazorTagHelpers.md)
+    - Basic Tag Helpers
+     - Making your own custom tag helpers
+- [Building Custom Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced_2.0/CustomMiddleware.md)
+- [Dependency Injection](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced_2.0/DependencyInjectionandunittesting.md)
+- [APIs and MVC](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced_2.0/APIsandMVCCore.md) 
+- [Single Page Applications with Angular 2](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced_2.0/SPA.md)
+- [Entity Framework Core](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced_2.0/Entityframeworkcore.md)
+- [Publishing & Deployment](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/master/Advanced_2.0/Publishinganddeployment.md) 
+
+**New Modules**
+
+[TagHelper Components]()
+
+[An introduction to Razor Pages]()
+
+[Azure integration]()
+
+- [App Insights]()
+- [Integrating Azure AD B2C Authentication]()
 
 
 

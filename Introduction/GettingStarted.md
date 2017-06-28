@@ -3,11 +3,11 @@
 *Module goals: Introduce your audience to .NET Core and the available tools and resources.*
 *Spend time on the .NET CLI show new,run,and watch*
 
-##Install the .NET Core SDK 
-1. Go to https://dot.net and follow the instructions to download and install the .NET Core SDK for your OS
+## Install the .NET Core SDK 
+1. Go to [dot.net](https://www.microsoft.com/net/download/core) to download and install the .NET Core SDK for your OS
 
 ### Setting up on different environments
-[**OS X**](https://www.microsoft.com/net/core#macos)
+[**macOS**](https://www.microsoft.com/net/core#macos)
 
 - Install Pre-requisites : [Homebrew](http://brew.sh/) and [OpenSSL](https://www.openssl.org/)
 - .NET Core  for OS X
@@ -16,11 +16,16 @@
 
 - Install .NET Core
 
-[**Linux**](https://www.microsoft.com/net/core#ubuntu)
+[**Ubuntu**](https://www.microsoft.com/net/core#ubuntu)
 
 - Set up the apt-get that hosts the packages 
 - Install .NET Core SDK
 
+### Tools 
+|Windows|  macOS 	|  Ubuntu 	|
+|---	|---	|---	|
+|  [Visual Studio](https://www.visualstudio.com/vs/)  	|  [Visual Studio for Macs](https://www.visualstudio.com/vs/visual-studio-mac/) 	|   [Visual Studio Code](https://code.visualstudio.com/)  	|
+|  [Visual Studio Code](https://code.visualstudio.com/) 	|    [Visual Studio Code](https://code.visualstudio.com/) 	|   	|
 ### Introduction to the .NET CLI
 
 - Test that you have you .NET installed by going to commandline or terminal and typing 
@@ -44,7 +49,7 @@
 ```
 *For this section it's a good idea to have [Vs Code](https://code.visualstudio.com/) installed or you can open it in notepad.  You can download it [here](https://code.visualstudio.com/).*
 
-- Take a look at the code in Vs Code 
+- Take a look at the code in [Vs Code](https://code.visualstudio.com/) 
 
 ```sh
     code .

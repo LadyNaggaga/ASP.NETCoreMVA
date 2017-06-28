@@ -5,7 +5,9 @@
 	-  Why do you need them 
 - First party tag helpers
 -  Third party tag helpers 
-- Create custom tag helpers. [Example] (https://github.com/dpaquette/TagHelperSamples/tree/master/TagHelperSamples/src/TagHelperSamples.Markdown)
+- Create custom tag helpers. [Example 1](https://github.com/dpaquette/TagHelperSamples/tree/master/TagHelperSamples/src/TagHelperSamples.Markdown)
+
+
 
 ### Working with Tag helpers
 - Create a new ASP.NET Core project using the "Web Application" template with "Individual User Accounts" selected.
