@@ -93,7 +93,7 @@ Option 1: Edit by hand
 
 - Go to `Startup.cs` in the `Configure` method and add `UseStaticFiles` before the hello world middleware:
 
-  ```C#
+```C#
   public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
   {
       loggerFactory.AddConsole();
@@ -114,7 +114,7 @@ Option 1: Edit by hand
 - Create a file called `index.html` with the following contents in the `wwwroot` folder:
 
 
-  ```html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -125,7 +125,7 @@ Option 1: Edit by hand
     <h1> Hello Again!</h1>
 </body>
 </html>
-  ```
+```
 
 - Run the application and navigate to the root. It should show the hello world middleware.
 - Navigate to `index.html` and it should show the static page in `wwwroot`.
