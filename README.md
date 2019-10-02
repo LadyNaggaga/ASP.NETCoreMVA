@@ -1,4 +1,4 @@
-# ASP.NET Core MVA
+# ASP.NET Core Channel 9
 
 This repository provides you with demo scripts, codes and links to get you up and running a three day workshop on an introduction to ASP.NET Core.
 [Link to recording](https://mva.microsoft.com/en-US/training-courses/introduction-to-aspnet-core-with-visual-studio-2017-16841)
@@ -10,7 +10,7 @@ Please feel free to use this content at User Groups,  workshops, demos, conferen
 
 *Meet ASP.NET Core*
 
-Section is being updated to MSBuild [Link to MVA ](https://mva.microsoft.com/en-US/training-courses/introduction-to-aspnet-core-with-visual-studio-2017-16841)
+Section is being updated to MSBuild [Link to Channel 9 ](https://channel9.msdn.com/Series/Introduction-to-ASP.NET-Core-with-Visual-Studio-2017)
 **Day 1** is 100 - 200 level  introduction to ASP.NET Core. By the end of the day your audience will have understanding of:
  - [.NET Core SDK and Tooling available](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/GettingStarted.md) :smiley:
  - [Introduction to ASP.NET Core and  Middleware](https://github.com/LadyNaggaga/ASP.NETCoreMVA/blob/MVA_Update/Introduction/IntroductiontoASPNETCore.md) :smiley:
